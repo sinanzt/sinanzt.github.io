@@ -231,8 +231,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 7em 0;
 }
 #fh5co-features .feature-left {
-  margin-bottom: 40px;
-  float: left;
+  margin-bottom: 60px;
 }
 @media screen and (max-width: 992px) {
   #fh5co-features .feature-left {
@@ -899,7 +898,15 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   margin-bottom: 20px;
   line-height: 1.5;
+  height: 110px;
+  overflow: hidden;
 }
+
+.fh5co-blog .blog-text p {
+  height: 135px;
+  overflow: hidden;
+}
+
 .fh5co-blog .blog-text h3 a {
   color: black;
 }
